@@ -8,7 +8,7 @@ The assignment consists of 5 parts, as following:
 
 This chunk of code will load data into an object called "mydata":
 ```{r}
-mydata <- read.csv(unz("repdata-data-activity.zip","activity.csv"))
+mydata <- read.csv(unz("activity.zip","activity.csv"))
 ```
 ## What is mean total number of steps taken per day?
 We will then use tapply to get the total number of steps taken each day
